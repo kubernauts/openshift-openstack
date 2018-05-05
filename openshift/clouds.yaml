@@ -1,0 +1,14 @@
+clouds:
+  mycloud:
+    auth:
+      auth_url: http:///v3
+      username: ""
+      project_name: ""
+      tenant_name: ""
+      project_id: 
+      tenant_id: 
+      user_domain_name: "Default"
+      password: ""
+    region_name: "RegionOne"
+    interface: "public"
+    identity_api_version: 3

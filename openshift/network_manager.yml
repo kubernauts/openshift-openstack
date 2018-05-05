@@ -1,0 +1,9 @@
+---
+- hosts: all
+  tasks:
+    - name: Install Network Manager
+      yum: pkg=NetworkManager
+      state: present
+
+    - name: Ensure Network Manager is Started and Enabled
+      service: name=NetworkManager state=started enabled=yes
